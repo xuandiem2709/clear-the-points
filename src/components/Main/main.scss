@@ -1,0 +1,64 @@
+.container {
+  background-color: white;
+  // border: 1px solid black;
+  padding: 20px;
+  margin:  auto;
+  width: 40%;
+  height: 800px;
+  }
+  
+.circleContainer {
+  border: 1px solid black;
+  margin-top: 20px;
+  height: 72%;
+  position: relative;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+.grid-container {
+  margin-top: 20px;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 12px;
+  grid-template-columns: auto auto;
+  width: 60%;
+}
+
+.input-point {
+  font-size: 16px;
+  padding: 4px;
+}
+
+.button-play {
+  margin-top: 20px;
+  padding: 6px 44px;
+  font-size: 16px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: #fff;
+  transition: background-color 0.7s ease;
+}
+
+.circle.clicked {
+  background-color: red;
+}
+
+.lose {
+  color: red;
+}
+
+.win {
+  color: green;
+}
